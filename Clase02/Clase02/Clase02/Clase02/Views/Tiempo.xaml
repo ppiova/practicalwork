@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Clase02.Views.Tiempo"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="20,20,20,0" BackgroundColor="GreenYellow">
+                <Label
+                    FontSize="30"
+                    HorizontalOptions="Center"
+                    Text="Calculo de Tiempo"
+                    TextColor="Blue" />
+                <Label Text="Ingrese Velocidad" />
+                <Entry x:Name="entryVelocidad" Placeholder="velocidad" />
+                <Label Text="Ingrese Distancia" />
+                <Entry x:Name="entryDistancia" Placeholder="distancia kms" />
+                <Button Clicked="Button_Clicked" Text="Calcular" />
+                <Label Text="Resultado" />
+                <Label x:Name="lblRsultado" />
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

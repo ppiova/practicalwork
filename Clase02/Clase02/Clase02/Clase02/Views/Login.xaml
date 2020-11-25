@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Clase02.Views.Login"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="0,60,0,0" />
+            <On Platform="Android" Value="0,0,0,0" />
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <StackLayout Margin="10,0,10,0" BackgroundColor="LightBlue">
+            <Entry x:Name="entryUsuario" Placeholder="Usuario" />
+            <Entry
+                x:Name="entryPass"
+                IsPassword="True"
+                Placeholder="Password" />
+            <Button
+                BorderColor="Black"
+                Clicked="Button_Clicked"
+                Text="Ingresar" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
