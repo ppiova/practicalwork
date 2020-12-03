@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XamarinClase02.Views.ListarNumeros"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="0,20,0,0" />
+            <On Platform="Android" Value="0,0,0,0" />
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <StackLayout Margin="20,0,20,0" BackgroundColor="LightGreen">
+            <Entry x:Name="EntryNumero" Keyboard="Numeric" />
+            <Button Clicked="Button_Clicked" Text="Crear Lista" />
+
+            <ScrollView>
+                <StackLayout x:Name="StackLista" />
+            </ScrollView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

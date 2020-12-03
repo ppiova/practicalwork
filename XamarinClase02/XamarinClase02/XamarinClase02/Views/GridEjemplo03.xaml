@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XamarinClase02.Views.GridEjemplo03"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <!--  Absolute:Indica un numero de tamaño específico para asignar a las filas y columnas.  -->
+                <RowDefinition Height="150" />
+
+                <!--  Auto: Se ajusta al contenido de la fila o columna  -->
+                <RowDefinition Height="Auto" />
+
+                <!--
+                    Proporcional: Este tipo divide el tamaño de las columnas y filas proporcionalmente
+                    al espacio restante entre los demás elementos
+                -->
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button
+                Grid.Row="0"
+                Grid.Column="0"
+                BackgroundColor="Aqua"
+                Text="Button 0,0"
+                TextColor="Black" />
+            <Button
+                Grid.Row="0"
+                Grid.Column="1"
+                BackgroundColor="Blue"
+                Text="Button 0,1"
+                TextColor="White" />
+            <Button
+                Grid.Row="1"
+                Grid.Column="0"
+                BackgroundColor="Coral"
+                Text="Button 1,0"
+                TextColor="White" />
+            <Button
+                Grid.Row="1"
+                Grid.Column="1"
+                BackgroundColor="Yellow"
+                Text="Button 1,1"
+                TextColor="Blue" />
+            <Button
+                Grid.Row="2"
+                Grid.Column="0"
+                BackgroundColor="DarkBlue"
+                Text="Button 2,0"
+                TextColor="White" />
+            <Button
+                Grid.Row="2"
+                Grid.Column="1"
+                BackgroundColor="OrangeRed"
+                Text="Button 2,1"
+                TextColor="White" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XamarinClase02.Navigation.Auto"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout Margin="10,20">
+            <Image Source="https://cdn.chinadialogue.net/content/uploads/2020/05/20092345/FG9FP2_electric_taxies_in_Taiyuan_web_size-1400x931.jpg" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

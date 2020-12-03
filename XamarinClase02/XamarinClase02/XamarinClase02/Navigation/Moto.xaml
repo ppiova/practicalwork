@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XamarinClase02.Navigation.Moto"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout Margin="10,20">
+            <Image Source="https://www.yamaha-motor.com.ar/images/contenidos/15fa88c18c17bf2548177a0abde12eaf_original.jpg" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

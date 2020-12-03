@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XamarinClase02.Views.ListViewJugadores"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--  Place new controls here  -->
+            <Label
+                Margin="20"
+                HorizontalOptions="Center"
+                Text="ListView Jugadores"
+                VerticalOptions="CenterAndExpand" />
+            <ListView x:Name="jugadores">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Image
+                                    HeightRequest="200"
+                                    Source="{Binding Imagen}"
+                                    WidthRequest="200" />
+                                <StackLayout>
+                                    <Label
+                                        FontSize="13"
+                                        HorizontalOptions="FillAndExpand"
+                                        Text="{Binding Nombre}"
+                                        TextColor="DarkViolet" />
+
+                                    <Label
+                                        FontSize="11"
+                                        HorizontalOptions="FillAndExpand"
+                                        Text="{Binding Equipo}"
+                                        TextColor="DeepPink" />
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

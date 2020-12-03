@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XamarinClase02.Bindings.BindingClases"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Label
+                FontSize="Large"
+                HorizontalOptions="Center"
+                Text="Nombre:" />
+            <Label HorizontalOptions="Center" Text="{Binding Nombre}" />
+            <Image
+                HeightRequest="200"
+                HorizontalOptions="Center"
+                Source="{Binding Imagen}"
+                WidthRequest="160" />
+            <Label
+                FontSize="Large"
+                HorizontalOptions="Center"
+                Text="Edad:" />
+            <Label HorizontalOptions="Center" Text="{Binding Edad}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

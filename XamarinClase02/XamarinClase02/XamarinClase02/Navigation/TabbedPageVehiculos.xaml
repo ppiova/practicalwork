@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage
+    x:Class="XamarinClase02.Navigation.TabbedPageVehiculos"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewsnavegacion="clr-namespace:XamarinClase02.Navigation">
+
+    <viewsnavegacion:Auto Title="Auto" IconImageSource="coche.png" />
+    <viewsnavegacion:Moto Title="Moto" IconImageSource="motocicleta.png" />
+    <viewsnavegacion:Bus Title="Bus" IconImageSource="autobus.png" />
+</TabbedPage>

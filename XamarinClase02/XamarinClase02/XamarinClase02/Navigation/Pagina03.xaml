@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XamarinClase02.Navigation.Pagina03"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="LightSkyBlue">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                HorizontalOptions="CenterAndExpand"
+                Text="FIN DE LA NAVEGACIÓN"
+                VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
