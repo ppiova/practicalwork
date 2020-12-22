@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Clase05.Views.AddTask"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            x:Name="BtnGuardar"
+            Clicked="BtnGuardar_Clicked"
+            Text="Guardar" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label FontSize="Medium" Text="Nombre *" />
+            <Entry x:Name="nombre" />
+            <Label FontSize="Medium" Text="Descripción" />
+            <Editor x:Name="descripcion" HeightRequest="120" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
