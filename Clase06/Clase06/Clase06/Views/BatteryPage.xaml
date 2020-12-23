@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Clase06.Views.BatteryPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+
+    <StackLayout>
+        <Frame
+            Padding="24"
+            BackgroundColor="DarkGreen"
+            CornerRadius="0">
+            <Label
+                FontSize="25"
+                HorizontalTextAlignment="Center"
+                Text="Battery Sample"
+                TextColor="White" />
+        </Frame>
+        <Label
+            x:Name="BatteryLevel"
+            Padding="30,10,30,10"
+            FontSize="Title"
+            Text="100%" />
+        <Label
+            x:Name="EnergySaver"
+            Padding="30,10,30,10"
+            FontSize="Title"
+            Text="" />
+    </StackLayout>
+</ContentPage>

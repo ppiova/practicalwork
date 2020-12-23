@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Clase06.Views.AppInfoPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <StackLayout>
+        <Frame
+            Padding="24"
+            BackgroundColor="SlateBlue"
+            CornerRadius="0">
+            <Label
+                FontSize="25"
+                HorizontalTextAlignment="Center"
+                Text="AppInfo Sample"
+                TextColor="White" />
+        </Frame>
+        <Label
+            x:Name="AppName"
+            Padding="30,10,30,10"
+            FontSize="Title"
+            Text="Start developing now" />
+        <Label
+            x:Name="PackageName"
+            Padding="30,10,30,10"
+            FontSize="Title"
+            Text="Start developing now" />
+        <Label
+            x:Name="Version"
+            Padding="30,10,30,10"
+            FontSize="Title"
+            Text="Start developing now" />
+        <Label
+            x:Name="Build"
+            Padding="30,10,30,10"
+            FontSize="Title"
+            Text="Start developing now" />
+
+        <Button Clicked="Button_Clicked" Text="Open Settings" />
+    </StackLayout>
+</ContentPage>
